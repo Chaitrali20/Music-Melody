@@ -1,0 +1,86 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: bisque;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    height:50px;
+    background-color: rgb(96, 147, 171);
+}
+.songContainer{
+    margin-top: 45px;
+}
+#logo{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container{
+    min-height:75vh;
+    width:70%;
+    margin: 23px auto;
+    color: brown;
+    border-radius: 5px;
+    padding:20px;
+    background-image: url("headphone.jpg");
+    background-size: cover;
+  
+}
+.song-item{
+    height:50px;
+    width:400px;
+    margin:20px;
+    display: flex;
+    background-color: azure;
+    border-radius: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.song-item img{
+    width: 50px;
+    margin:0px 23px;
+    border-radius: 30px;
+}
+
+.timestamp{
+    margin:20px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+li{
+    margin: 12px;
+    
+}
+.bottom{
+    position: sticky;
+    bottom:0;
+    background-color: black;
+    height:90px;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+#progress{
+    width:120vh; 
+    cursor: pointer;
+}
+#icon{
+    margin:8px 24px;
+    cursor: pointer;
+}
+.bottom img{
+    height:60px;
+    position: absolute;
+    left:200px;
+    bottom:20px;
+
+}
+
